@@ -3,7 +3,7 @@ CACHE MANIFEST
 
 CACHE:
 ./files.json
-./index.html
+./index.ejs
 ./loja-adidas.html
 ./loja-bacio-di-latte.html
 ./loja-brooksfield.html
@@ -19,9 +19,9 @@ CACHE:
 ./loja-shoulder.html
 ./loja-so-sapatos.html
 ./loja-tip-top.html
-./lojas.html
+./lojas.ejs
 ./manifest.json
-./pagar-estacionamento.html
+./pagar-estacionamento.ejs
 ./css/main.css
 ./icons/MaterialIcons-Regular.ttf
 ./icons/material.css
@@ -60,4 +60,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: fb4337bb4b7ca55dca942234efcb592bf0b3d87e98083a1a864ff3e4ceda83ac
+# hash: 2429f34e277ecccaf7908f840dae4e3d36634acceafb1bdc9d43c1c45ec8347d

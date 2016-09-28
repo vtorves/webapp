@@ -1,5 +1,5 @@
 var files = [
-  "index.html",
+  "index.ejs",
   "loja-adidas.html",
   "loja-bacio-di-latte.html",
   "loja-brooksfield.html",
@@ -15,12 +15,12 @@ var files = [
   "loja-shoulder.html",
   "loja-so-sapatos.html",
   "loja-tip-top.html",
-  "lojas.html",
+  "lojas.ejs",
   "manifest.json",
-  "pagar-estacionamento.html",
-  "css/main.css",
+  "pagar-estacionamento.ejs",
   "icons/MaterialIcons-Regular.ttf",
   "icons/material.css",
+  "css/main.css",
   "img/entrada.jpg",
   "img/icon.png",
   "img/ticket.png",
@@ -29,6 +29,9 @@ var files = [
   "js/main.js",
   "js/pagamento.js",
   "js/spa.js",
+  "js/vendor/jquery.min.js",
+  "js/vendor/materialize-0.97.0.min.js",
+  "js/vendor/quagga.min.js",
   "img/loja/adidas.jpg",
   "img/loja/bacio-di-latte.jpg",
   "img/loja/brooksfield.jpg",
@@ -43,8 +46,5 @@ var files = [
   "img/loja/pizza-hut.jpg",
   "img/loja/shoulder.jpg",
   "img/loja/so-sapatos.jpg",
-  "img/loja/tip-top.jpg",
-  "js/vendor/jquery.min.js",
-  "js/vendor/materialize-0.97.0.min.js",
-  "js/vendor/quagga.min.js"
+  "img/loja/tip-top.jpg"
 ];
