@@ -1,7 +1,7 @@
 {
-  "name": "shopping",
+  "name": "linguagil-webapp",
   "version": "0.0.1",
-  "description": "",
+  "description": "New LinguÁgil group homepage.",
   "dependencies": {
     "browser-sync": "latest",
     "del": "latest",
