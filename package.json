@@ -15,7 +15,7 @@
     "gulp-filelist": "latest",
     "gulp-gh-pages": "latest",
     "gulp-jshint": "latest",
-    "gulp-jshint-jenkins-reporter": "latest",
+    "gulp-checkstyle-jenkins-reporter": "latest",
     "gulp-load-plugins": "latest",
     "gulp-plumber": "latest",
     "gulp-rename": "latest",
