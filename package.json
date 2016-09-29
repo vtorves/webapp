@@ -1,7 +1,7 @@
 {
-  "name": "shopping",
+  "name": "linguagil-webapp",
   "version": "0.0.1",
-  "description": "",
+  "description": "New LinguÁgil group homepage.",
   "dependencies": {
     "browser-sync": "latest",
     "del": "latest",
@@ -15,7 +15,7 @@
     "gulp-filelist": "latest",
     "gulp-gh-pages": "latest",
     "gulp-jshint": "latest",
-    "gulp-jshint-jenkins-reporter": "latest",
+    "gulp-checkstyle-jenkins-reporter": "latest",
     "gulp-load-plugins": "latest",
     "gulp-plumber": "latest",
     "gulp-rename": "latest",

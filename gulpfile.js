@@ -1,3 +1,4 @@
+
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var browserSync = require('browser-sync').create();
@@ -40,7 +41,7 @@ gulp.task('html', function() {
         }))
         .pipe($.ejs({
             dados: dados
-        }).on('error', $.util.log))
+        }, {ext: '.html'}).on('error', $.util.log))
         .pipe(gulp.dest('./dist/'));
 
     dados.lojas.forEach(function(loja){
