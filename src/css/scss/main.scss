@@ -1,18 +1,20 @@
 @import '../../icons/material';
 @import 'materialize';
 
+
+
 html {
-	background-color: #E86C13;
-    height: 100%;
+     background-color: $primary-color-dark;
+     height: 100%;
 }
 
 body {
-	background-color: #F2F2F2;
-	min-height: 100%;
-    min-width: 320px;
-    max-width: 600px;
-    margin: 0 auto;
-    position: relative;
+     background-color: $primary-color-light;
+     min-height: 100%;
+     min-width: 320px;
+     max-width: 600px;
+     margin: 0 auto;
+     position: relative;
 
     font-family: 
 		/* android 5 */
@@ -121,8 +123,8 @@ img {
 }
 
 .home {
-	background-color: #F57F16;
-	background: url(../img/entrada.jpg) center top;
+	background-color: $secondary-color;
+	background: url(../img/bg-salvador.jpg) center top;
 	background-size: cover;
 	height: 100vh;
 
@@ -130,7 +132,7 @@ img {
 	flex-direction: column;
 
 	h1 {
-		background: #ffb300;
+	    background: $primary-color-dark;
 	    color: white;
 	    margin-top: auto;
 	    margin-bottom: 1.25em;
