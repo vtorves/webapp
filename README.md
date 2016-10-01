@@ -22,7 +22,7 @@ Open http://localhost:3000
 ### Deploy
 
 ```
-gulp clean && gulp build && gulp service-worker && gulp manifest && gulp ghpages
+gulp deploy
 ```
 
 Open: https://linguagil.github.io/webapp/
