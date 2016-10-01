@@ -125,5 +125,4 @@ gulp.task('ghpages', function() {
 });
 
 gulp.task('build', $.sequence('html', ['sass', 'static']));
-gulp.task('deploy', ['clean', 'build', 'service-worker', 'manifest', 'ghpages']);
 gulp.task('default', ['clean:manifest', 'dev-service-worker', 'build', 'watch', 'sync']);
