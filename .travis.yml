@@ -4,4 +4,9 @@ node_js:
 before_script:
   - npm install -g gulp
   - npm install
-script: gulp clean && gulp build && gulp service-worker && gulp manifest && gulp ghpages
+script: gulp clean && gulp build && gulp service-worker && gulp manifest
+before_deploy: sh load_key.sh
+deploy:
+  provider: script
+  script: gulp ghpages
+  skip_cleanup: true
