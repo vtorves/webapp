@@ -6,6 +6,7 @@ before_script:
   - npm install
 script: gulp clean && gulp build && gulp service-worker && gulp manifest
 after_success:
+  - git remote set-url origin git@github.com:linguagil/webapp.git
   - git config --global user.name "Travis CI"
   - git config --global user.email "$COMMIT_AUTHOR_EMAIL"
 before_deploy:
