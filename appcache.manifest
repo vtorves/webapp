@@ -25,6 +25,7 @@ CACHE:
 ./css/main.css
 ./icons/MaterialIcons-Regular.ttf
 ./icons/material.css
+./img/bg-salvador.jpg
 ./img/entrada.jpg
 ./img/icon.png
 ./img/ticket.png
@@ -60,4 +61,4 @@ NETWORK:
 SETTINGS:
 prefer-online
 
-# hash: f7c3118929f67375fddf8a126099ed7a7422ddfa819251df49be11c7817cceb4
+# hash: adb4d937e9ce0bd91f096b57ab027f42c648654a0122f92679fe9762368ab82d
